@@ -11,7 +11,9 @@ import org.openqa.selenium.interactions.Actions;
 public class TC001_NewEvent {
 
 	public static void main(String[] args) throws InterruptedException {
-
+		
+// 		Changes made here
+		
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 
 		ChromeOptions options = new ChromeOptions();
